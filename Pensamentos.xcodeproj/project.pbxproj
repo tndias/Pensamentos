@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		ACBB3B972059DA5A007FEC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3B962059DA5A007FEC90 /* AppDelegate.swift */; };
-		ACBB3B992059DA5A007FEC90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3B982059DA5A007FEC90 /* ViewController.swift */; };
+		ACBB3B992059DA5A007FEC90 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3B982059DA5A007FEC90 /* QuoteViewController.swift */; };
 		ACBB3B9C2059DA5A007FEC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBB3B9A2059DA5A007FEC90 /* Main.storyboard */; };
 		ACBB3B9E2059DA5A007FEC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBB3B9D2059DA5A007FEC90 /* Assets.xcassets */; };
 		ACBB3BA12059DA5A007FEC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBB3B9F2059DA5A007FEC90 /* LaunchScreen.storyboard */; };
+		ACBB3BA92059E1EB007FEC90 /* ConfigNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3BA82059E1EB007FEC90 /* ConfigNewController.swift */; };
+		ACBB3BAB2059E219007FEC90 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3BAA2059E219007FEC90 /* SaveViewController.swift */; };
+		ACBB3BAD2059F4DD007FEC90 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3BAC2059F4DD007FEC90 /* QuotesManager.swift */; };
+		ACBB3BAF2059F54E007FEC90 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3BAE2059F54E007FEC90 /* Quote.swift */; };
+		ACBB3BB12059F68C007FEC90 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBB3BB02059F68C007FEC90 /* quotes.json */; };
+		ACBB3BB32059FC9F007FEC90 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB3BB22059FC9F007FEC90 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACBB3B932059DA5A007FEC90 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBB3B962059DA5A007FEC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACBB3B982059DA5A007FEC90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACBB3B982059DA5A007FEC90 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
 		ACBB3B9B2059DA5A007FEC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACBB3B9D2059DA5A007FEC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACBB3BA02059DA5A007FEC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACBB3BA22059DA5A007FEC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBB3BA82059E1EB007FEC90 /* ConfigNewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigNewController.swift; sourceTree = "<group>"; };
+		ACBB3BAA2059E219007FEC90 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		ACBB3BAC2059F4DD007FEC90 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		ACBB3BAE2059F54E007FEC90 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		ACBB3BB02059F68C007FEC90 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		ACBB3BB22059FC9F007FEC90 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				ACBB3B962059DA5A007FEC90 /* AppDelegate.swift */,
-				ACBB3B982059DA5A007FEC90 /* ViewController.swift */,
+				ACBB3BB02059F68C007FEC90 /* quotes.json */,
+				ACBB3B982059DA5A007FEC90 /* QuoteViewController.swift */,
 				ACBB3B9A2059DA5A007FEC90 /* Main.storyboard */,
 				ACBB3B9D2059DA5A007FEC90 /* Assets.xcassets */,
 				ACBB3B9F2059DA5A007FEC90 /* LaunchScreen.storyboard */,
 				ACBB3BA22059DA5A007FEC90 /* Info.plist */,
+				ACBB3BA82059E1EB007FEC90 /* ConfigNewController.swift */,
+				ACBB3BAA2059E219007FEC90 /* SaveViewController.swift */,
+				ACBB3BAC2059F4DD007FEC90 /* QuotesManager.swift */,
+				ACBB3BAE2059F54E007FEC90 /* Quote.swift */,
+				ACBB3BB22059FC9F007FEC90 /* Configuration.swift */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -123,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBB3BB12059F68C007FEC90 /* quotes.json in Resources */,
 				ACBB3BA12059DA5A007FEC90 /* LaunchScreen.storyboard in Resources */,
 				ACBB3B9E2059DA5A007FEC90 /* Assets.xcassets in Resources */,
 				ACBB3B9C2059DA5A007FEC90 /* Main.storyboard in Resources */,
@@ -136,7 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACBB3B992059DA5A007FEC90 /* ViewController.swift in Sources */,
+				ACBB3BAD2059F4DD007FEC90 /* QuotesManager.swift in Sources */,
+				ACBB3BA92059E1EB007FEC90 /* ConfigNewController.swift in Sources */,
+				ACBB3BB32059FC9F007FEC90 /* Configuration.swift in Sources */,
+				ACBB3BAB2059E219007FEC90 /* SaveViewController.swift in Sources */,
+				ACBB3B992059DA5A007FEC90 /* QuoteViewController.swift in Sources */,
+				ACBB3BAF2059F54E007FEC90 /* Quote.swift in Sources */,
 				ACBB3B972059DA5A007FEC90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
